@@ -13,9 +13,14 @@ body{
 background-color: #f8f9fa;
 color #333;
 line- height: 1.6;
+
 }
 
+main{
+    max-width:800px;
+margin: auto
 
+}
 
 
 /* Cabeçalho */
@@ -29,7 +34,7 @@ line- height: 1.6;
 
 .link{
     color: withe;
-    text-decoration: mome;
+    text-decoration: none;
 }
 
 .link:visited{
@@ -38,7 +43,42 @@ line- height: 1.6;
 }
 
 .link:houver{
- 
+}
+
+nav ul {
+    color: #0077cc; 
+     display: flex;
+     justify-content: center;
+     gap : 15px;
+}
+
+.subtitle{
+    margin: 20px 0px;
 
 }
 
+.list-ativ{
+margin: 20px;
+}
+
+.citacoes{
+    background-color : #e9ecef;
+    border-left: 5px solid #0077cc;
+    padding: 10px;
+    margin-bottom: 20px;
+    font-style: italic;
+}
+
+
+footer{
+    color: white;
+    text-align: center;
+    background-color : #343a40;
+    padding: 20px;
+    margin top: 40px;
+}
+
+footer h3{
+    font-weight: 600;
+    margin: 10px;
+}
